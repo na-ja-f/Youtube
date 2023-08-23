@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>youtube clone</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+</head>
+<body>
+    <div class="header">
+        <div class="left-section">
+            <img class="hamburger-icon" src="icons/menu.svg">
+            <img class="youtube-logo" src="icons/YouTube-Logo.wine.svg">
+        </div>
+        <div class="middle-section">
+            <input class="search-box" type="text" placeholder="search">
+            <button class="search-button">
+                <img class="search-icon" src="icons/search.svg">
+                <div class="tooltip">Search</div>
+            </button>
+            <button class="voice-search-button">
+                <img class="voice-search-icon" src="icons/download.png">
+                <div class="tooltip">Search with your voice</div>
+            </button>
+        </div>
+        <div class="right-section">
+            <div class="upload-icon-container">
+                <img class="upload-icon" src="icons/upload.svg">
+                <div class="tooltip">Create</div>
+            </div>
+            <div class="apps-container">
+                <img class="grid-icon" src="icons/icons8-grid-30.png">
+                <div class="tooltip">Apps</div>
+            </div>
+            <div class="notifications-icon-div">
+                <img class="notification-icon" src="icons/notifications.svg">
+                <div class="tooltip">Notifications</div>
+                <div class="notifications-number">3</div>
+            </div>
+            <img class="profile" src="profile/me.jpg">
+        </div>
+    </div>
+
+    <div class="sidebar">
+        <div class="sidebar-box">
+            <img src="icons/home.svg">
+            <div>Home</div>
+        </div>
+        <div class="sidebar-box">
+            <img src="icons/explore.svg">
+            <div>Explore</div>
+        </div>
+        <div class="sidebar-box">
+            <img src="icons/subscriptions.svg">
+            <div>Subscriptions</div>
+        </div>
+        <div class="sidebar-box">
+            <img src="icons/originals.svg">
+            <div>orginals</div>
+        </div>
+        <div class="sidebar-box">
+            <img src="icons/youtube-music.svg">
+            <div>Youtube music</div>
+        </div>
+        <div class="sidebar-box">
+            <img src="icons/library.svg">
+            <div>Library</div>
+        </div>
+    </div>
+    
+    <div class="grid">
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnails/t1.avif">
+                <div class="video-time">14:50</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="profile-pic">
+                    <img class="channel-pic" src="profile/p1.jpg">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        Driving The New Fastest Car Ever Made!
+                    </p>
+                    <p class="video-author">
+                        Marques Brownlee
+                    </p>
+                    <p class="video-stats">
+                        2.2M views &#183; 1 day ago
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnails/t2.avif">
+                <div class="video-time">2:40</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="profile-pic">
+                    <img class="channel-pic" src="profile/p2.jpg">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        King of Kotha Official Trailer | Dulquer Salmaan | Abhilash Joshiy | Jakes Bejoy - Zee Studio
+                    </p>
+                    <p class="video-author">
+                        Zee Studios
+                    </p>
+                    <p class="video-stats">
+                        18M views &#183; 10 days ago
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnails/t3.avif">
+                <div class="video-time">15:55</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="profile-pic">
+                    <img class="channel-pic" src="profile/p3.jpg">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        How to write a Job Application Mail to HR
+                    </p>
+                    <p class="video-author">
+                        Brototype Malayalam
+                    </p>
+                    <p class="video-stats">
+                        15K views &#183; 11 days ago
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnails/t4.avif">
+                <div class="video-time">31:50</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="profile-pic">
+                    <img class="channel-pic" src="profile/p4.jpg">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        Toyota Supra Malayalam Review |ടൊയോട്ടക്ക് ചീത്ത കേൾക്കേണ്ടി വന്ന മോഡൽ | Najeeb
+                    </p>
+                    <p class="video-author">
+                        Najeeb Rehman KP
+                    </p>
+                    <p class="video-stats">
+                        287k views  &#183; 11 months ago
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnails/t5.avif">
+                <div class="video-time">10:10</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="profile-pic">
+                    <img class="channel-pic" src="profile/p5.jpg">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        Anirudh's Rocking Performance of Hukum | Jailer Audio Launch
+                    </p>
+                    <p class="video-author">
+                        Sun TV
+                    </p>
+                    <p class="video-stats">
+                        11M views &#183; 11 days ago
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnails/t6.avif">
+                <div class="video-time">24:30</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="profile-pic">
+                    <img class="channel-pic" src="profile/p6.jpg">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        My Biggest Studying Mistake - The Feynman Technique
+                    </p>
+                    <p class="video-author">
+                        Zach Highley
+                    </p>
+                    <p class="video-stats">
+                        2.4M views &#183; 1 year ago
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnails/t7.avif">
+                <div class="video-time">14:50</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="profile-pic">
+                    <img class="channel-pic" src="profile/p7.jpg">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        10 CSS Pro Tips - Code this, NOT that! 
+                    </p>
+                    <p class="video-author">
+                        Fireship
+                    </p>
+                    <p class="video-stats">
+                        1.7M views &#183; 2 years ago
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnails/t8.avif">
+                <div class="video-time">2:40</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="profile-pic">
+                    <img class="channel-pic" src="profile/p8.jpg">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        How To Get Clear Skin (only 3 steps)
+                    </p>
+                    <p class="video-author">
+                        Veyrone
+                    </p>
+                    <p class="video-stats">
+                        1.6M views &#183; 3 months ago
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnails/t9.avif">
+                <div class="video-time">15:55</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="profile-pic">
+                    <img class="channel-pic" src="profile/p9.jpg">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        Stoic Advice For Hard Days
+                    </p>
+                    <p class="video-author">
+                        Daily Stoic
+                    </p>
+                    <p class="video-stats">
+                        895K views &#183; 11 days ago
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnails/t10.avif">
+                <div class="video-time">31:50</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="profile-pic">
+                    <img class="channel-pic" src="profile/p10.jpg">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        MKBHD Studio Tour 2021!
+                    </p>
+                    <p class="video-author">
+                        The Studio
+                    </p>
+                    <p class="video-stats">
+                        4.5M views  &#183; 2 months ago
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnails/t11.avif">
+                <div class="video-time">10:10</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="profile-pic">
+                    <img class="channel-pic" src="profile/p11.jpg">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        Interstellar 4K HDR IMAX | Into The Black Hole - Gargantua 1/2
+                    </p>
+                    <p class="video-author">
+                        Apex Clips
+                    </p>
+                    <p class="video-stats">
+                        11M views &#183; 11 days ago
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnails/t12.avif">
+                <div class="video-time">24:30</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="profile-pic">
+                    <img class="channel-pic" src="profile/p12.jpg">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        Ross Gets Too Comfortable in the Library | Friends
+                    </p>
+                    <p class="video-author">
+                        Friends
+                    </p>
+                    <p class="video-stats">
+                        2.4M views &#183; 1 year ago
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
